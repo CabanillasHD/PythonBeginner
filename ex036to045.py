@@ -1,14 +1,14 @@
 # 036 - Calcula a prestação e se ela é 30% do salário
-vlcasa = float(input('Digite o valor da casa R$: '))
-vlsal = float(input('Digite o valor do salário R$: '))
-pres = int(input('Quantos anos de prestação: '))
-vlpres = (vlcasa / pres) / 12
-salideal = (vlpres * 100) / 30
-print("O valor das prestações será de R${:.2f}".format(vlpres))
-if vlpres <= (vlsal * 30)/100:
-    print('Parabéns, empréstimo APROVADO !')
-else:
-    print('Empréstimo NEGADO !\nSeu salário precisaria ser de no mínimo {:.2f} para comprar esta casa'.format(salideal))
+# vlcasa = float(input('Digite o valor da casa R$: '))
+# vlsal = float(input('Digite o valor do salário R$: '))
+# pres = int(input('Quantos anos de prestação: '))
+# vlpres = (vlcasa / pres) / 12
+# salideal = (vlpres * 100) / 30
+# print("O valor das prestações será de R${:.2f}".format(vlpres))
+# if vlpres <= (vlsal * 30)/100:
+#     print('Parabéns, empréstimo APROVADO !')
+# else:
+#     print('Empréstimo NEGADO !\nSeu salário precisaria ser de no mínimo {:.2f} para comprar esta casa'.format(salideal))
 
 
 
