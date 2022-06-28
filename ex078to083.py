@@ -35,18 +35,23 @@
 # lista.sort()
 # print(lista)
 
-#080 - Digitar 5 valores e ordenar sem usar o sort() - VERIFICAR
+#080 - Digitar 5 valores e ordenar sem usar o sort()
 # lista = []
-# for v in range(0, 2):
-#     if v == 0:
-#         lista.append(int(input('Digite um valor:')))
-#     if v == 1:
-#         if v[1] > v[0]:
-#             lista.append(int(input('Digite um valor:')))
-#         else:
-#             lista.insert(int(input('Digite um valor:'), 0))
-#     print(v[0])
+# for c in range(0, 5):
+#     n = int(input('Digite um valor: '))
+#     if c == 0 or n > lista[-1]:
+#         lista.append(n)
+#         print('Valor inserido no final da lista')
+#     else:
+#         pos = 0
+#         while pos < len(lista):
+#             if n <= lista[pos]:
+#                 lista.insert(pos, n)
+#                 print(f'Valor inserido na posição {pos} da lista')
+#                 break
+#             pos += 1
 # print(lista)
+
 
 #081 - Receber varios valores em uma lista e falar qnt digitados, ordenar desc e mostra se tem 5
 # lista = list()
@@ -85,9 +90,18 @@
 # print(f'Essa é a lista de números ímpares {listaimpar}')
 
 #083 - Analise de expressao com parenteses - VERIFICAR
-# frase = []
-# frase.extend(str(input('Digite a expressão: ')))
-# if (frase.count('(')) == (frase.count(')')):
-#     print('expressão correta')
+# frase = (str(input('Digite a expressão: ')))
+# parabre = []
+# for v in frase:
+#     if v == '(':
+#         parabre.append('(')
+#     if v == ')':
+#         if len(parabre) > 0:
+#             parabre.pop()
+#         else:
+#             parabre.append(')')
+#             break
+# if len(parabre) == 0:
+#     print('Expressão correta')
 # else:
-#     print('expressão errada')
+#     print('Expressão incorreta')

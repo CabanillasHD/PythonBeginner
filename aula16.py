@@ -25,3 +25,12 @@
 # lista = [2, 5, 9, 4]
 # for i, v in enumerate(lista):
 #     print(i, v)
+
+
+dados = list()
+pessoas = list()
+dados.append('pedro')
+dados.append(25)
+print(dados[0:2])
+pessoas.append(dados[:])
+print(pessoas)
