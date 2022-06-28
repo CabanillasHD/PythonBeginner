@@ -1,19 +1,25 @@
 #078 - Criar lista e mostrar maior e menor
-lista = list()
-menor = maior = posma = posme = 0
-for c in range(0, 5):
-    lista.append(int(input('Digite um valor: ')))
-    if c == 0:
-        maior = menor = lista[c]
-    elif lista[c] < menor:
-        menor = lista[c]
-        posme = c
-    elif lista[c] > maior:
-        maior = lista[c]
-        posma = c
-print(f'Olha que dmais essa é a sua lista {lista}')
-print(f'O maior da lista é {maior} e está na posição {posma + 1}')
-print(f'O menor da lista é {menor} e está na posição {posme + 1}')
+# lista = list()
+# menor = maior = posma = posme = 0
+# for c in range(0, 5):
+#     lista.append(int(input('Digite um valor: ')))
+#     if c == 0:
+#         maior = menor = lista[c]
+#     elif lista[c] < menor:
+#         menor = lista[c]
+#         posme = c
+#     elif lista[c] > maior:
+#         maior = lista[c]
+#         posma = c
+# print(f'Olha que dmais essa é a sua lista {lista}')
+# print(f'O maior da lista é {maior} e está na posição {posma + 1}')
+# for i, v in enumerate(lista):
+#     if v == maior:
+#         print(f'O valor maior apareceu nas posições {i + 1}')
+# print(f'O menor da lista é {menor} e está na posição {posme + 1}')
+# for i, v in enumerate(lista):
+#     if v == menor:
+#         print(f'O valor menor apareceu nas posições {i + 1}')
 
 #079 - Digitar vários números - só aceitar números novos e mostrar em ordem crescente
 # lista = list()
@@ -29,7 +35,7 @@ print(f'O menor da lista é {menor} e está na posição {posme + 1}')
 # lista.sort()
 # print(lista)
 
-#080 - Digitar 5 valores e ordenar sem usar o sort()
+#080 - Digitar 5 valores e ordenar sem usar o sort() - VERIFICAR
 # lista = []
 # for v in range(0, 2):
 #     if v == 0:
@@ -70,6 +76,7 @@ print(f'O menor da lista é {menor} e está na posição {posme + 1}')
 #         break
 # print(f'Sua lista completa é {lista}')
 # for n in lista:
+#     print(n)
 #     if n % 2 == 0:
 #         listapar.append(n)
 #     else:
@@ -77,7 +84,7 @@ print(f'O menor da lista é {menor} e está na posição {posme + 1}')
 # print(f'Essa é a lista de números pares {listapar}')
 # print(f'Essa é a lista de números ímpares {listaimpar}')
 
-#083 - Analise de expressao com parenteses
+#083 - Analise de expressao com parenteses - VERIFICAR
 # frase = []
 # frase.extend(str(input('Digite a expressão: ')))
 # if (frase.count('(')) == (frase.count(')')):

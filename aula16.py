@@ -1,13 +1,13 @@
-num = [2, 5, 9, 1]
-num[2] = 3
-num.append(7)
-num.sort()
-num.sort(reverse=True)
-num.insert(5, 2)
-num.remove(2)
-#num.pop(2)
-print(num)
-print(f'Essa lista tem {len(num)} elementos')
+# num = [2, 5, 9, 1]
+# num[2] = 3
+# num.append(7)
+# num.sort()
+# num.sort(reverse=True)
+# num.insert(5, 2)
+# num.remove(2)
+# #num.pop(2)
+# print(num)
+# print(f'Essa lista tem {len(num)} elementos')
 
 # valores = list()
 #
@@ -20,3 +20,8 @@ print(f'Essa lista tem {len(num)} elementos')
 # for c, v in enumerate(valores):
 #     print(f'Na posição {c} encontrei o valor {v}')
 # print('FIM')
+
+#
+# lista = [2, 5, 9, 4]
+# for i, v in enumerate(lista):
+#     print(i, v)
